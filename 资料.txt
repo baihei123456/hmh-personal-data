@@ -1,0 +1,211 @@
+甄会选主站：
+
+V3.6环境：
+开发地址 ：
+手机端：
+http://h5-dev-zhxmall.x2era.com
+
+管理端：
+http://manager-dev-zhxmall.x2era.com
+账号：admin@zhx.com   密码：123456
+
+供应商管理端：
+supplier-dev-zhxmall.x2era.com
+
+测试地址：
+手机端：
+http://h5-test-zhxmall.x2era.com
+
+后台端：
+http://manager-test-zhxmall.x2era.com
+
+供应商管理端：
+supplier-test-zhxmall.x2era.com
+
+test环境获取短信验证码：（纳客宝VPN）
+访问地址：https://101.227.182.110 
+后端开发：zhenghairong
+前端开发：mading
+密码：zhx123
+页面：http://captcha-pet.maxxipoint.com/Sms/sel_data.jsp
+
+UAT地址：
+手机端：
+http://h5-uat-zhxmall.x2era.com
+
+后台端：
+http://manager-uat-zhxmall.x2era.com
+
+供应商管理端：
+supplier-uat-zhxmall.x2era.com
+
+测试环境数据库：
+HOST = mysql-test-zhxmall.x2era.com
+USERNAME = zhxmall
+PASSWORD = ijkloasd12$
+
+UAT环境数据库：
+USERNAME = zhxmalluat
+PASSWORD = yuixtr56!
+HOST = mysql-uat-zhxmall.x2era.com
+
+DEV环境数据库：
+HOST =mysql-dev-zhxmall.x2era.com
+USERNAME =zhxmall
+PASSWORD =ijkloasd12$
+
+
+【腾讯文档】甄会选3.6功能 
+https://docs.qq.com/sheet/DWHh2eVJES2FsVlp5
+
+【腾讯文档】新系统需求细节更新记录：
+https://docs.qq.com/sheet/DWENjelVkWmpmWlhy
+
+新系统需求记录：
+https://docs.qq.com/sheet/DWENjelVkWmpmWlhy?tab=BB08J2
+
+新商城切换问题登记：
+https://docs.qq.com/sheet/DRE9jUWFiSHBncHpr?tab=BB08J2&_t=1601286879277
+
+
+
+
+全家云超：
+
+后台地址：
+####dev
+mall-h5-dev.chinafamilymart.com.cn
+mall-manger-dev.chinafamilymart.com.cn
+mall-vendor-dev.chinafamilymart.com.cn
+账号：admin@zhx.com   密码：123456
+
+
+mall-manger-sit.chinafamilymart.com.cn
+mall-vendor-sit.chinafamilymart.com.cn
+账号：admin@zhx.com   密码：123456
+
+####uat
+mall-h5-uat.chinafamilymart.com.cn
+mall-manger-uat.chinafamilymart.com.cn
+mall-vendor-uat.chinafamilymart.com.cn
+账号：admin@zhx.com   密码：123456
+
+####生产
+mall-h5.chinafamilymart.com.cn
+mall-manger.chinafamilymart.com.cn
+mall-vendor.chinafamilymart.com.cn
+mall-oapi.chinafamilymart.com.cn
+
+####数据库
+开发        rds                10.245.5.3        3306
+测试        rds                10.245.4.2        3306
+UAT         rds                10.245.3.3        3306
+云超uat数据库：username: fmappmall，password: fxcfuatem@21!
+
+全家dev白名单测试账号：
+（mall-h5-dev.chinafamilymart.com.cn，密码6个888888）
+15800010078                康师傅
+15800010079                康师傅
+15800010080                康师傅
+15800010081                康师傅
+15800010082                康师傅
+15800010083                康师傅
+15800010084                康师傅
+17363900922                德克士
+17363900923                德克士
+13512121227                德克士
+17363900003                德克士
+17363900002                德克士
+13512121239                德克士
+
+15800010001   --全家老会员
+15800010002   --全家老会员
+18699999949   --新用户甄会选
+13511223344   --甄会选--老会员
+18918869189   --hero集享会员
+18217252630   --集享会员
+
+
+jira我的bug数
+project = ZHXNEW AND resolution = Unresolved AND creator in (currentUser()) ORDER BY priority DESC, updated DESC
+
+jira账号密码
+密码x2era.com  账号minghuanhu
+
+test环境获取短信验证码：（纳客宝VPN）
+访问地址：https://101.227.182.110 
+后端开发：zhenghairong
+密码：zhx1234
+页面：http://captcha-pet.maxxipoint.com/Sms/sel_data.jsp
+
+全家云超V1.2版本的需求（价格体系调整）已经上传到蓝湖 https://lanhuapp.com/url/ISTvN-089M7
+【腾讯文档】德克士积分商城需求说明 https://docs.qq.com/sheet/DWElFTWl0UnRzcVlF
+
+
+纳客宝后台
+https://103.229.219.205
+VPN账号：zhenhuixuan05  密码：qweQWE123456
+账号：zhenhuixuan05
+密码：~~~123qqQQ
+
+
+
+
+注册中心，账号：nacos   密码：nacos
+开发、测试环境的数据库，账号：zhxmall  密码：ijkloasd12$
+Rancher，账号：zhxmall  密码：SH3y8XHozd
+Apollo，账号：zhxmall  密码：zhxmall
+
+
+
+
+test环境获取短信验证码：（纳客宝VPN）
+访问地址：https://101.227.182.110 
+后端开发：zhenghairong
+前端开发：mading
+密码：zhx1234
+
+
+全家云超V1.2版本的需求（价格体系调整）已经上传到蓝湖 https://lanhuapp.com/url/ISTvN-089M7
+【腾讯文档】德克士积分商城需求说明 https://docs.qq.com/sheet/DWElFTWl0UnRzcVlF
+
+德克士dev测试H5：http://10.88.35.11:8080/
+http://10.88.35.11:8081/  生产
+http://10.88.35.11:8082    UAT
+
+
+jira账号密码
+密码x2era.com  账号minghuanhu
+
+
+ 甄会选内测包已上传蒲公英内测托管平台
+下载地址：
+1，https://www.pgyer.com/zhx-android；
+2，https://www.pgyer.com/zhx-iOS。
+两个链接均可下载android和iOS平台的安装包，请知悉。
+
+邮箱账号密码
+账号：mhhu@gs-mall.com
+密码：abc123
+Wifi名称：zhx_mall
+Wifi密码：zhx@staff
+
+开发数据库环境  账号：minghuanhu  password:UJssb_f34Kb
+
+uat数据库权限请在数据审计平台申请所需权限
+audit@x2era.com 
+账号 : huminghuan  密码: UJssb_f34Kb
+
+jenkins
+http://localhost:8080/login?from=%2F
+mhhu    Aa123456
+
+
+https://bpm.dajixiangchina.com
+X20210222007
+Aa123456
+
+
+一件代发出入库
+主表：t_stock_main 
+详情表：t_stock_detail
