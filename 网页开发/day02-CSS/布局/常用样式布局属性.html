@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background: red;
+            /* 设置背景图片，repeat不让图片重复，由于图片小于div所以会重复，引号可写可不写 */
+            /* background:url("../imgs/4.png") no-repeat; */
+            /* background:url(../imgs/3.png) no-repeat; */
+            /* 设置标签的四周边框 5px,实线，红色*/
+            /* border: 5px solid green; */
+            border-top: 5px solid green;
+            /* border-top顶部加粗 */
+            border-right: 5px solid green;
+            border-left: 5px solid green;
+            border-bottom: 5px solid green;
+            /* 设置浮动 */
+            float: right;
+
+
+        }
+        div.box{
+            width: 100px;
+            height: 100px;
+            background: green;
+        }
+        div.box1{
+            width: 40px;
+            height: 40px;
+            background:red;
+            float: left;
+        }
+        div.box2{
+            width: 40px;
+            height: 40px;
+            background: black;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <!-- 布局常用控件是div -->
+    <div>哈哈</div>
+    <!-- div>div*2 创建一个父div 在父div里面创建2个字div -->
+    <div class="box">
+        <div class="box1"></div>
+        <div class="box2"></div>
+    </div>
+</body>
+</html>
