@@ -1,0 +1,42 @@
+/*SELECT * from  b WHERE EXISTS (SELECT * from t_sku_inventory_lock WHERE sku_no='88949368')*/
+#UCASE(supplier_no)  首字母大写
+SELECT UCASE(supplier_no) 供应商 from t_sku_inventory  LIMIT 10；
+
+#首字母小写
+SELECT LCASE(supplier_no) 供应商 from t_sku_inventory LIMIT 10;
+
+#MID() 函数用于从文本字段中提取字符;
+
+
+#提取前 4 个字符：
+SELECT MID(supplier_no,1,4) from t_sku_inventory;
+
+
+
+#ROUND() 函数用于把数值字段舍入为指定的小数位数。
+SELECT ROUND(back_rate,2),t_finance_contract_oi.* from t_finance_contract_oi LIMIT 1;
+
+
+#NOW()系统时间
+SELECT NOW(),t_sku_inventory.* from t_sku_inventory LIMIT 1;
+
+
+#FORMAT() 函数用于对字段的显示进行格式化。
+/*SELECT name, url, DATE_FORMAT(Now(),'%Y-%m-%d') AS date
+FROM Websites;
+column_name:必需。要格式化的字段。
+format:必需。规定格式。
+*/
+
+SELECT DATE_FORMAT(NOW(),'%Y-%m-%d') tt from t_sku_inventory LIMIT 1;
+
+
+
+
+
+
+
+
+
+
+
