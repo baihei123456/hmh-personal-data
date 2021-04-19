@@ -30,7 +30,22 @@ format:必需。规定格式。
 
 SELECT DATE_FORMAT(NOW(),'%Y-%m-%d') tt from t_sku_inventory LIMIT 1;
 
+事务
+保存点注意：
 
+1.只能取消到某个保存点 rollback to savepoint p1
+2.不能提交某个保存 commit to savepoint p2//错误写法
+3.最后commit 把未取消的保存点去不提交到数据
+事务保存点使用例子：
+begin;
+update score set score=40 where scoreid=1;
+savepoint s1;
+update score set score=50 where scoreid=2;
+select * from score;
+rollback to savepoint s1;
+select * from score;
+commit;
+*/
 
 
 
